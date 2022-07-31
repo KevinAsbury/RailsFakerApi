@@ -2,8 +2,10 @@ Rails.application.routes.draw do
   resources :communications
   resources :addresses
   resources :users
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
+  get :login, to: 'sessions#new'
+  post :login, to: 'sessions#create'
+  delete :logout, to: 'sessions#destroy'
+  post :signup, to: 'users#create'
   # root "articles#index"
 end
