@@ -10,9 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_07_30_224442) do
+ActiveRecord::Schema.define(version: 2022_07_31_020657) do
 
 # Could not dump table "addresses" because of following StandardError
+#   Unknown type 'uuid' for column 'id'
+
+# Could not dump table "communications" because of following StandardError
 #   Unknown type 'uuid' for column 'id'
 
 # Could not dump table "users" because of following StandardError

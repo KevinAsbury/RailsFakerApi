@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  information: MyString
+  comm_type: MyString
+  sub_type: MyString
+  is_primary: false
+  can_message: false
+  can_call: false
+  best_time: MyString
+  confirmed: false
+  active: false
+
+two:
+  information: MyString
+  comm_type: MyString
+  sub_type: MyString
+  is_primary: false
+  can_message: false
+  can_call: false
+  best_time: MyString
+  confirmed: false
+  active: false

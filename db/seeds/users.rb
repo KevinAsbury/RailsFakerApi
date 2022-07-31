@@ -12,8 +12,8 @@ puts "Adding #{pluralize(n, 'user')} to the table."
 n.times do
   User.create(
     id: SecureRandom.uuid,
-    email: Faker::Internet.email,
-    username: Faker::Internet.username,
+    email: Faker::Internet.unique.email,
+    username: Faker::Internet.unique.username,
     password: 'password',
     confirmed: true,
     active: true
