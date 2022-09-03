@@ -23,5 +23,5 @@ n.times do
     active: true
   )
 rescue StandardError => e
-  p "users_seed::User.create => exception #{e.class.name} : #{e.message}"
+  p "addresses_seed::Address.create => exception #{e.class.name} : #{e.message}"
 end

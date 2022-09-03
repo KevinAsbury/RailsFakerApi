@@ -43,5 +43,5 @@ n.times do
     active: Faker::Boolean.boolean
   )
 rescue StandardError => e
-  p "users_seed::User.create => exception #{e.class.name} : #{e.message}"
+  p "communications_seed::Communication.create => exception #{e.class.name} : #{e.message}"
 end
